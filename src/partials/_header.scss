@@ -1,0 +1,72 @@
+header{
+  background-color: black;
+  li{
+    display: inline-block;
+    margin-right: 10px;
+    a{
+      color: white;
+      text-decoration: none;
+    }
+  }
+  #first-header-nav{
+    display: flex;
+    justify-content: flex-end;
+
+    a:hover{
+      text-decoration: underline;
+    }
+  }
+
+  #second-header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    a{
+      padding: 10px;
+    }
+
+    a:hover{
+      background-color: white;
+      color: black;
+    }
+  }
+
+  #jumbo{
+    height: 460px;
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+    background-position: top center;
+    background-repeat:no-repeat;
+    display: flex;
+    justify-content: flex-end;
+
+    #jumbo_center{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      color: white;
+
+      margin-right: 10%;
+      ul{
+        display: flex;
+        flex-direction: column;
+        li{
+          margin: 10px 0;
+        }
+      }
+      .button{
+        background-color: grey;
+        width: 35%;
+      }
+    }
+
+    #jumbo_right{
+      width: 26%;
+      background-color: rgba(0,0,0,0.5);
+      height: 90%;
+      margin-top: 2.5%;
+      margin-right: 10%;
+    }
+
+  }
+}

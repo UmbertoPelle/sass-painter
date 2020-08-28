@@ -4,3 +4,85 @@
   box-sizing: border-box;
 }
 
+.contaier {
+  width: 80%;
+}
+
+header {
+  background-color: black;
+}
+
+header li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header li a {
+  color: white;
+  text-decoration: none;
+}
+
+header #first-header-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header #first-header-nav a:hover {
+  text-decoration: underline;
+}
+
+header #second-header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+header #second-header-nav a {
+  padding: 10px;
+}
+
+header #second-header-nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+header #jumbo {
+  height: 460px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header #jumbo #jumbo_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  margin-right: 10%;
+}
+
+header #jumbo #jumbo_center ul {
+  display: flex;
+  flex-direction: column;
+}
+
+header #jumbo #jumbo_center ul li {
+  margin: 10px 0;
+}
+
+header #jumbo #jumbo_center .button {
+  background-color: grey;
+  width: 35%;
+}
+
+header #jumbo #jumbo_right {
+  width: 26%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90%;
+  margin-top: 2.5%;
+  margin-right: 10%;
+}
+
