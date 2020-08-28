@@ -18,7 +18,7 @@ header li {
 }
 
 header li a {
-  color: white;
+  color: #989898;
   text-decoration: none;
 }
 
@@ -28,6 +28,7 @@ header #first-header-nav {
 }
 
 header #first-header-nav a:hover {
+  color: white;
   text-decoration: underline;
 }
 
@@ -79,10 +80,78 @@ header #jumbo #jumbo_center .button {
 }
 
 header #jumbo #jumbo_right {
+  position: relative;
   width: 26%;
   background-color: rgba(0, 0, 0, 0.5);
   height: 90%;
   margin-top: 2.5%;
   margin-right: 10%;
+  color: white;
+}
+
+header #jumbo #jumbo_right #img_moneyBack {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+header #jumbo #jumbo_right .sconto {
+  background-color: pink;
+  margin: 5%;
+  color: white;
+  padding: 2%;
+  width: 20%;
+}
+
+header #jumbo #jumbo_right .full_price {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: line-through;
+  display: block;
+  padding-left: 3%;
+  font-size: 18px;
+}
+
+header #jumbo #jumbo_right .new_price {
+  padding-left: 3%;
+  font-size: 22px;
+}
+
+header #jumbo #jumbo_right #info {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 3%;
+}
+
+header #jumbo #jumbo_right .button {
+  margin-left: 3%;
+  margin-top: 7%;
+  background-color: blue;
+  width: 23%;
+  padding: 3%;
+}
+
+header #jumbo #jumbo_right .button:hover {
+  background-color: lightblue;
+}
+
+header #jumbo #jumbo_right .button a {
+  color: white;
+  text-decoration: none;
+}
+
+header #jumbo #jumbo_right #promo_sale {
+  width: 90%;
+  margin: 5% auto;
+  background-color: white;
+  color: black;
+  padding: 3%;
+}
+
+header #jumbo #jumbo_right #promo_sale p span {
+  color: #CC397f;
+}
+
+header #jumbo #jumbo_right #promo_sale a {
+  color: lightblue;
+  text-decoration: none;
 }
 

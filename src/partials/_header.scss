@@ -4,7 +4,7 @@ header{
     display: inline-block;
     margin-right: 10px;
     a{
-      color: white;
+      color: #989898;
       text-decoration: none;
     }
   }
@@ -13,6 +13,7 @@ header{
     justify-content: flex-end;
 
     a:hover{
+      color: white;
       text-decoration: underline;
     }
   }
@@ -22,6 +23,7 @@ header{
     justify-content: space-around;
     align-items: center;
     margin: 20px;
+
     a{
       padding: 10px;
     }
@@ -61,11 +63,81 @@ header{
     }
 
     #jumbo_right{
+      position: relative;
       width: 26%;
       background-color: rgba(0,0,0,0.5);
       height: 90%;
       margin-top: 2.5%;
       margin-right: 10%;
+
+      color: white;
+
+      #img_moneyBack{
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+
+      .sconto{
+        background-color: pink;
+        margin: 5%;
+        color: white;
+        padding: 2%;
+        width: 20%;
+      }
+
+      .full_price{
+        color: rgba(255,255,255,0.5);
+        text-decoration: line-through;
+        display: block;
+        padding-left: 3%;
+        font-size: 18px;
+      }
+
+      .new_price{
+        padding-left: 3%;
+        font-size: 22px;
+      }
+
+      #info{
+        color: rgba(255,255,255,0.5);
+        padding-left: 3%;
+      }
+
+      .button{
+        margin-left: 3%;
+        margin-top: 7%;
+        background-color: blue;
+        width: 23%;
+        padding: 3%;
+
+        &:hover{
+          background-color: lightblue;
+        }
+
+
+        a{
+          color: white;
+          text-decoration: none;
+        }
+      }
+
+      #promo_sale{
+        width: 90%;
+        margin: 5% auto ;
+        background-color: white;
+        color: black;
+        padding: 3%;
+
+        p span{
+          color: #CC397f;
+        }
+
+        a{
+          color: lightblue;
+          text-decoration: none;
+        }
+      }
     }
 
   }
