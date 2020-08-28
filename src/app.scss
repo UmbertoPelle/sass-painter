@@ -7,8 +7,14 @@
   box-sizing: border-box;
 }
 
-.contaier{
+.global{
   width: 80%;
+  margin: auto;
 }
 
-@import 'partials/header.scss';
+// body{
+//   background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg');
+// }
+
+@import 'partials/_header.scss';
+@import 'partials/_content.scss';
