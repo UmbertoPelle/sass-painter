@@ -3,7 +3,7 @@ main.content{
   background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
   padding-bottom: 10px 0;
   #list_main{
-    background-color: grey;
+    background-color: #E6E6E6;
   }
   ul li{
     display: inline-block;
@@ -64,4 +64,32 @@ main.content{
     }
   }
 
+}
+
+#transition{
+  text-align: center;
+  padding: 10px;
+  h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  p{
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .carousel{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      max-width: 90%;
+      padding: 0 5%;
+    }
+    i{
+      font-size: 30px;
+    }
+  }
 }

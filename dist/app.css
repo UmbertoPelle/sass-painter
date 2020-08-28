@@ -163,7 +163,7 @@ main.content {
 }
 
 main.content #list_main {
-  background-color: grey;
+  background-color: #E6E6E6;
 }
 
 main.content ul li {
@@ -228,5 +228,37 @@ main.content #img_intro #border_img {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#transition {
+  text-align: center;
+  padding: 10px;
+}
+
+#transition h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#transition p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#transition .carousel {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#transition .carousel img {
+  max-width: 90%;
+  padding: 0 5%;
+}
+
+#transition .carousel i {
+  font-size: 30px;
 }
 
