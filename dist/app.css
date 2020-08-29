@@ -9,6 +9,10 @@
   margin: auto;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 header {
   background-color: black;
 }
@@ -382,5 +386,40 @@ section#tools div#brush_packs .additional a {
   text-decoration: none;
   color: lightblue;
   cursor: pointer;
+}
+
+footer #links {
+  background-color: #ececec;
+  padding: 20px;
+}
+
+footer #links .global {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+footer #links .global h4 {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+
+footer #links .global ul li {
+  list-style: none;
+  margin: 16px 0;
+}
+
+footer #links .global ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+footer #links .global ul li a:hover {
+  text-decoration: underline;
+}
+
+footer #links .global i {
+  margin-right: 10px;
+  font-size: 30px;
 }
 
