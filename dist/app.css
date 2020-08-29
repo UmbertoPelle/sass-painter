@@ -315,7 +315,6 @@ section#flexible .row img {
 
 section#tools {
   text-align: center;
-  padding: 20px;
 }
 
 section#tools h2 {
@@ -326,6 +325,7 @@ section#tools .album {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 30px 0;
 }
 
 section#tools .cover {
@@ -349,5 +349,38 @@ section#tools .cover div {
 
 section#tools .cover:hover img {
   transform: scale(1.1);
+}
+
+section#tools div#brush_packs {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+  padding: 60px 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#tools div#brush_packs .additional {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+section#tools div#brush_packs .additional h4 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section#tools div#brush_packs .additional a {
+  text-decoration: none;
+  color: lightblue;
+  cursor: pointer;
 }
 

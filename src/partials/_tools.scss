@@ -1,6 +1,5 @@
 section#tools{
   text-align: center;
-  padding: 20px ;
   h2{
     font-size: 36px;
   }
@@ -8,6 +7,7 @@ section#tools{
     display: flex;
     justify-content: center;
     align-items:center;
+    margin: 30px 0;
   }
   .cover{
     max-width: calc(100% / 5);
@@ -27,6 +27,39 @@ section#tools{
     }
     &:hover img{
       transform: scale(1.1);
+    }
+  }
+
+  div#brush_packs{
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg');
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .additional{
+      background-color: white;
+      width: 400px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+
+      h4{
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      a{
+        text-decoration: none;
+        color: lightblue;
+        cursor: pointer;
+      }
     }
   }
 }
