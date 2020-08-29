@@ -31,4 +31,39 @@ footer{
       }
     }
   }
+
+  #copyright{
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+
+
+    .global{
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+
+    }
+
+    #img_copyright{
+      width: 30%;
+
+      img{
+        max-width: 25%;
+        margin-right: 10px;
+      }
+    }
+
+    #list_copyright{
+      a {
+        color: #999;
+        text-decoration: none;
+        margin-right: 15px; 
+        &:hover{
+          color: white;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
