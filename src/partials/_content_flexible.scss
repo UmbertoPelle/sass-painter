@@ -2,4 +2,38 @@ section#flexible{
   text-align:center;
   color: white;
   background-color: #222;
+  padding: 20px 0;
+
+  h1{
+    font-size: 30px;
+  }
+
+  p{
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  img{
+    max-width: 65%;
+    margin-top: 40px;
+  }
+
+  .row{
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text_row{
+      max-width: 40%;
+      h3{
+        font-size: 40px;
+      }
+      p{
+        font-size: 18px;
+      }
+    }
+    img{
+      max-width: 40%;
+    }
+  }
 }

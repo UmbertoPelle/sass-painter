@@ -273,5 +273,43 @@ section#flexible {
   text-align: center;
   color: white;
   background-color: #222;
+  padding: 20px 0;
+}
+
+section#flexible h1 {
+  font-size: 30px;
+}
+
+section#flexible p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+section#flexible img {
+  max-width: 65%;
+  margin-top: 40px;
+}
+
+section#flexible .row {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#flexible .row .text_row {
+  max-width: 40%;
+}
+
+section#flexible .row .text_row h3 {
+  font-size: 40px;
+}
+
+section#flexible .row .text_row p {
+  font-size: 18px;
+}
+
+section#flexible .row img {
+  max-width: 40%;
 }
 
