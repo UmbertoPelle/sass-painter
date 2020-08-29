@@ -53,6 +53,10 @@ header #second-header-nav a:hover {
   color: black;
 }
 
+header #second-header-nav img {
+  cursor: pointer;
+}
+
 header #jumbo {
   height: 460px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
@@ -421,6 +425,7 @@ footer #links .global ul li a:hover {
 footer #links .global i {
   margin-right: 10px;
   font-size: 30px;
+  cursor: pointer;
 }
 
 footer #copyright {
