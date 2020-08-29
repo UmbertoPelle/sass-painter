@@ -1,0 +1,32 @@
+section#tools{
+  text-align: center;
+  padding: 20px ;
+  h2{
+    font-size: 36px;
+  }
+  .album{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .cover{
+    max-width: calc(100% / 5);
+    padding: 15px;
+    position: relative;
+    img{
+      max-width: 100%;
+    }
+    div{
+      color: white;
+      position: absolute;
+      bottom: 25px;
+      font-size: 25px;
+      width: 100%;
+      text-align: center;
+
+    }
+    &:hover img{
+      transform: scale(1.1);
+    }
+  }
+}

@@ -313,3 +313,41 @@ section#flexible .row img {
   max-width: 40%;
 }
 
+section#tools {
+  text-align: center;
+  padding: 20px;
+}
+
+section#tools h2 {
+  font-size: 36px;
+}
+
+section#tools .album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section#tools .cover {
+  max-width: calc(100% / 5);
+  padding: 15px;
+  position: relative;
+}
+
+section#tools .cover img {
+  max-width: 100%;
+}
+
+section#tools .cover div {
+  color: white;
+  position: absolute;
+  bottom: 25px;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+section#tools .cover:hover img {
+  transform: scale(1.1);
+}
+
