@@ -36,6 +36,31 @@ header{
     img{
       cursor: pointer;
     }
+
+    .dropdown{
+      position: relative;
+      &:hover .dropdown-content{
+        display: block;
+      }
+    }
+    .dropdown-content{
+      background-color: white;
+      position: absolute;
+      top:27px;
+      left: 0;
+      width: 170px;
+      padding: 10px;
+      display: none;
+      z-index: 10;
+
+      li{
+        margin: 10px 0;
+      }
+      a:hover{
+        background-color: rgba(0,0,0,0);
+        color: black;
+      }
+    }
   }
 
   #jumbo{

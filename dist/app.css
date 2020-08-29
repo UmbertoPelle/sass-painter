@@ -57,6 +57,34 @@ header #second-header-nav img {
   cursor: pointer;
 }
 
+header #second-header-nav .dropdown {
+  position: relative;
+}
+
+header #second-header-nav .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header #second-header-nav .dropdown-content {
+  background-color: white;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  width: 170px;
+  padding: 10px;
+  display: none;
+  z-index: 10;
+}
+
+header #second-header-nav .dropdown-content li {
+  margin: 10px 0;
+}
+
+header #second-header-nav .dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
 header #jumbo {
   height: 460px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
