@@ -158,7 +158,6 @@ header #jumbo #jumbo_right #promo_sale a {
 
 main.content {
   background-color: #E6E6E6;
-  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   padding-bottom: 10px 0;
 }
 
@@ -181,9 +180,14 @@ main.content ul li a:hover {
   text-decoration: underline;
 }
 
-main.content #painting {
+main.content #first_section {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  height: 700px;
+}
+
+main.content #painting {
   color: white;
   text-align: center;
   padding-top: 30px;
@@ -213,9 +217,8 @@ main.content #painting .fa-book {
 
 main.content #img_intro {
   margin: auto;
-  width: 51%;
+  width: 44.5%;
   position: relative;
-  height: 500px;
 }
 
 main.content #img_intro #border_img,
@@ -231,21 +234,25 @@ main.content #img_intro #border_img {
 }
 
 #transition {
+  background-color: white;
+}
+
+.global {
   text-align: center;
   padding: 10px;
 }
 
-#transition h2 {
+.global h2 {
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-#transition p {
+.global p {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-#transition .carousel {
+.global .carousel {
   width: 80%;
   margin: auto;
   display: flex;
@@ -253,12 +260,18 @@ main.content #img_intro #border_img {
   align-items: center;
 }
 
-#transition .carousel img {
+.global .carousel img {
   max-width: 90%;
   padding: 0 5%;
 }
 
-#transition .carousel i {
+.global .carousel i {
   font-size: 30px;
+}
+
+section#flexible {
+  text-align: center;
+  color: white;
+  background-color: #222;
 }
 

@@ -1,6 +1,5 @@
 main.content{
   background-color: #E6E6E6;
-  background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
   padding-bottom: 10px 0;
   #list_main{
     background-color: #E6E6E6;
@@ -18,9 +17,15 @@ main.content{
     }
   }
 
-  #painting{
+  #first_section{
+    background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    height: 700px;
+
+  }
+
+  #painting{
     color: white;
     text-align: center;
     padding-top: 30px;
@@ -49,13 +54,13 @@ main.content{
 
   #img_intro{
     margin: auto;
-    width: 51%;
+    width: 44.5%;
     position: relative;
-    height: 500px;
     #border_img,#content_img{
       max-width: 100%;
       max-height: 100%;
     }
+
 
     #border_img{
       position: absolute;
@@ -67,6 +72,10 @@ main.content{
 }
 
 #transition{
+  background-color: white;
+}
+
+.global{
   text-align: center;
   padding: 10px;
   h2{
