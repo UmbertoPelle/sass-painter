@@ -8,9 +8,14 @@
     #mobile-nav{
       display: block;
       text-align: left;
+      background: black;
       color: white;
 
-      position: relative;
+      position: fixed;
+      top:0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
 
 
       i:hover{
@@ -25,7 +30,7 @@
         max-width: 110px;
         position: absolute;
         top: 5px;
-        left: 35%;
+        left: 40%;
       }
 
       .hamburger_dropdown_parent{
@@ -35,7 +40,7 @@
       .hamburger_dropdown{
         position: absolute;
         top:38px;
-        left: -62px;
+        left: 0;
         width: 100vw;
         height: 100vh;
         background-color: black;
@@ -63,6 +68,7 @@
     }
 
     #jumbo_mobile{
+      margin-top: 38px;
       display: block;
       background: white;
 
