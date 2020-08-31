@@ -220,7 +220,6 @@ main.content #first_section {
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  height: 700px;
 }
 
 main.content #painting {
@@ -486,5 +485,69 @@ footer #copyright #list_copyright a {
 footer #copyright #list_copyright a:hover {
   color: white;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+  main.content #list_main {
+    display: none;
+  }
+
+  main.content #img_intro {
+    width: 100%;
+  }
+
+  section#flexible .row {
+    flex-direction: column;
+  }
+
+  section#flexible .row .text_row {
+    max-width: 60%;
+  }
+
+  section#flexible .row img {
+    max-width: 100%;
+  }
+
+  section#tools .album {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  section#tools .cover {
+    max-width: calc(100% / 2);
+  }
+
+  div#brush_packs {
+    flex-direction: column;
+  }
+
+  div#brush_packs .additional {
+    margin-right: 0;
+    margin: 20px;
+  }
+
+  footer #links .global {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer #links .global .coll_links {
+    margin-bottom: 20px;
+  }
+
+  footer #copyright .global {
+    display: block;
+  }
+
+  footer #copyright .global #img_copyright {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  footer #copyright .global #list_copyright span {
+    display: block;
+    margin-top: 10px;
+  }
 }
 
