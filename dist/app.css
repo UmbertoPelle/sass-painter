@@ -192,6 +192,10 @@ header #jumbo #jumbo_right #promo_sale a {
   text-decoration: none;
 }
 
+header #jumbo_mobile {
+  display: none;
+}
+
 main.content {
   background-color: #E6E6E6;
   padding-bottom: 10px 0;
@@ -399,7 +403,7 @@ section#tools div#brush_packs {
 
 section#tools div#brush_packs .additional {
   background-color: white;
-  width: 400px;
+  max-width: 400px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -548,6 +552,33 @@ footer #copyright #list_copyright a:hover {
   footer #copyright .global #list_copyright span {
     display: block;
     margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  header #jumbo {
+    display: none;
+  }
+
+  header #jumbo_mobile {
+    display: block;
+    background: white;
+  }
+
+  header #jumbo_mobile #img_jumbo_mobile {
+    text-align: center;
+  }
+
+  header #jumbo_mobile li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header #jumbo_mobile .button {
+    border: solid 1px black;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
   }
 }
 

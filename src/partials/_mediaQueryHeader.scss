@@ -1,0 +1,29 @@
+@media screen and (max-width: 800px){
+  header{
+
+    #jumbo{
+      display: none;
+    }
+
+    #jumbo_mobile{
+      display: block;
+      background: white;
+
+      #img_jumbo_mobile{
+        text-align: center;
+      }
+
+      li{
+        display: block;
+        margin: 10px 0;
+      }
+
+      .button{
+        border: solid 1px black;
+        display: inline-block;
+        margin: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}
