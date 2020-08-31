@@ -171,11 +171,11 @@ header{
 
   }
 
-  #jumbo_mobile{
+  #jumbo_mobile,#mobile-nav{
     display: none;
   }
 
-  #mobile-nav{
-    display: none;
+  .hamburger_dropdown{
+    display: none
   }
 }

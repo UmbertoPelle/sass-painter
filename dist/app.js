@@ -93,7 +93,11 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+function init() {
+  console.log('hello');
+}
 
+$(document).ready(init);
 
 /***/ }),
 

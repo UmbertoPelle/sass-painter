@@ -192,11 +192,12 @@ header #jumbo #jumbo_right #promo_sale a {
   text-decoration: none;
 }
 
-header #jumbo_mobile {
+header #jumbo_mobile,
+header #mobile-nav {
   display: none;
 }
 
-header #mobile-nav {
+header .hamburger_dropdown {
   display: none;
 }
 
@@ -586,6 +587,40 @@ footer #copyright #list_copyright a:hover {
     position: absolute;
     top: 5px;
     left: 35%;
+  }
+
+  header #mobile-nav .hamburger_dropdown_parent {
+    position: relative;
+  }
+
+  header #mobile-nav .hamburger_dropdown {
+    position: absolute;
+    top: 38px;
+    left: -62px;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+
+  header #mobile-nav .hamburger_dropdown .items_hamburger {
+    padding: 10px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+  }
+
+  header #mobile-nav .hamburger_dropdown .items_hamburger:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+  }
+
+  header #mobile-nav .hamburger_dropdown ul li {
+    display: block;
+    margin: 10px;
+  }
+
+  header #mobile-nav .hamburger_dropdown select {
+    margin: 10px;
   }
 
   header #jumbo_mobile {
