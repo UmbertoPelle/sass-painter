@@ -1,8 +1,32 @@
 @media screen and (max-width: 800px){
   header{
 
-    #jumbo{
+    #jumbo,#first-header-nav,#second-header-nav{
       display: none;
+    }
+
+    #mobile-nav{
+      display: block;
+      text-align: left;
+      color: white;
+
+      position: relative;
+
+
+      i:hover{
+        background-color: rgba(255,255,255,0.5);
+        color: black;
+        padding: 1%;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      a img{
+        max-width: 110px;
+        position: absolute;
+        top: 5px;
+        left: 35%;
+      }
     }
 
     #jumbo_mobile{
